@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  overflow: hidden;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-color: #c2b8b8;
+}
+
+#board {
+  background-color: #cca45a;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  position: relative;
+  top: 10%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-box-shadow: 0 0 10px;
+          box-shadow: 0 0 10px;
+}
+
+#addContainer {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 0%;
+  margin: auto;
+  overflow: hidden;
+  background: #c69946;
+  border-radius: 0 10px 0 0;
+  -webkit-border-radius: 0 10px 0 0;
+  -moz-border-radius: 0 10px 0 0;
+  -ms-border-radius: 0 10px 0 0;
+  -o-border-radius: 0 10px 0 0;
+}
+
+#addContainer:hover {
+  background: #bd8f3a;
+}
+
+#add {
+  width: 18px;
+  height: 40px;
+  font-size: 2rem;
+  margin: auto;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  overflow: hidden;
+}
+
+textarea {
+  background: inherit;
+  resize: none;
+}
+
+#closeable {
+  float: right;
+  color: white;
+}
+
+#closeable p {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+/*# sourceMappingURL=style.css.map */

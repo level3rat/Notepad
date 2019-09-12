@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  overflow: hidden;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(194, 184, 184);
+}
+
+#board {
+  background-color: rgb(204, 164, 90);
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  position: relative;
+  top: 10%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 0 0 10px;
+}
+
+#addContainer {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 0%;
+  //border: 1px solid #fff;
+  margin: auto;
+  overflow: hidden;
+  background: hsl(38.9, 52.8%, 52.6%);
+  border-radius: 0 10px 0 0; // to match the border-radius of #board
+  -webkit-border-radius: 0 10px 0 0;
+  -moz-border-radius: 0 10px 0 0;
+  -ms-border-radius: 0 10px 0 0;
+  -o-border-radius: 0 10px 0 0;
+}
+
+#addContainer:hover {
+  background: hsl(38.9, 52.8%, 48.6%);
+}
+
+#add {
+  width: 18px;
+  height: 40px;
+  font-size: 2rem;
+  margin: auto;
+  user-select: none;
+  overflow: hidden;
+}
+
+textarea {
+  background: inherit;
+  resize: none;
+}
+
+#closeable {
+  float: right;
+  color: white;
+}
+
+#closeable p {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  user-select: none;
+}
